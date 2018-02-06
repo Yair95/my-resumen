@@ -1,0 +1,68 @@
+        /* GENERAL*/
+ul {
+  list-style-type: none;
+}
+          /* ASIDE */
+aside {
+  background-color: #647087
+}
+aside * {
+  color: white;
+}
+aside h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+aside section h2:first-child {
+  border-bottom: 2px solid white;
+}
+#profile-pic img{
+  border-radius: 50%;
+}
+
+          /* MAIN */
+main section > h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.hero h2{
+  color: white;
+  border-top: 2px solid white;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.hero {
+  background-color: #AB9076
+  box-shadow: 2px 2px 30px 4px #647087 inset;
+}
+.about-me {
+  background-color: #EDC0Af;
+}
+.about-me h2 {
+  background-color: white;
+}
+article h3,
+article h4 {
+  font-weight: bold;
+}
+article ul {
+  list-style-type: square;
+}
+/** {
+  color: blue;
+}
+p {
+  color: red;
+}
+.bonito {
+  background-color: lightblue;
+}
+ul {
+  list-style-type: none;
+}
+article ul {
+  list-style-type: square;
+}
+#profile-pic img{
+  border-radius: 50%;
+}*/
