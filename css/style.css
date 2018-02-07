@@ -2,7 +2,13 @@
 ul {
   list-style-type: none;
 }
+.flex-conteiner {
+  display: flex;
+}
           /* ASIDE */
+.flex-aside {
+  flex-basis: 200px;
+}
 aside {
   background-color: #647087
 }
@@ -26,7 +32,6 @@ main section > h2 {
   letter-spacing: 5px;
 }
 .hero h2{
-  color: white;
   border-top: 2px solid white;
   text-transform: none;
   letter-spacing: normal;
