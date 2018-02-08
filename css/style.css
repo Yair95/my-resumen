@@ -11,6 +11,8 @@ ul {
 }
 aside {
   background-color: #647087
+  width: 30%;
+  margin-right: 3%;
 }
 aside * {
   color: white;
@@ -52,6 +54,9 @@ article h4 {
 }
 article ul {
   list-style-type: square;
+}
+.reference article{
+  width: 50%;
 }
 /** {
   color: blue;
