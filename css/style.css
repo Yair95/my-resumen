@@ -5,13 +5,20 @@ ul {
 .flex-conteiner {
   display: flex;
 }
+.clear {
+  clear: both;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+}
           /* ASIDE */
 .flex-aside {
   flex-basis: 200px;
 }
 aside {
-  background-color: #647087
-  width: 30%;
+  background-color: #647087;
+  width: 95%;
   margin-right: 3%;
 }
 aside * {
@@ -27,6 +34,25 @@ aside section h2:first-child {
 #profile-pic img{
   border-radius: 50%;
 }
+/*    DL    */
+dl {
+  display: flex;
+  flex-wrap: wrap;
+}
+dt,
+dl {
+  line-height: 1.5em;
+  border-top: 1px solid white;
+}
+dt:last-of-type,
+dd:last-of-type {
+  border-top: 1px solid white;
+}
+dt,
+dl {
+  flex-basis: 50%;
+  margin: 0;
+}
 
           /* MAIN */
 main section > h2 {
@@ -36,11 +62,16 @@ main section > h2 {
 .hero h2{
   border-top: 2px solid white;
   text-transform: none;
-  letter-spacing: normal;
+  letter-spacing: 10px;
+}
+.hero h1 {
+  letter-spacing: 10px;
 }
 .hero {
-  background-color: #AB9076
+  text-align: center;
+  background-color: #DCEBC2;
   box-shadow: 2px 2px 30px 4px #647087 inset;
+  padding: 15% 0;
 }
 .about-me {
   background-color: #EDC0Af;
