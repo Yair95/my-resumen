@@ -1,3 +1,10 @@
+  /*layout*/
+.main-conteiner {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+
+}
         /* GENERAL*/
 ul {
   list-style-type: none;
@@ -33,6 +40,7 @@ aside section h2:first-child {
 }
 #profile-pic img{
   border-radius: 50%;
+  width: 130px;
 }
 /*    DL    */
 dl {
@@ -88,6 +96,23 @@ article ul {
 }
 .reference article{
   width: 50%;
+}
+.fb::before {
+  content: "\f25b";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+}
+.social-item::before {
+  padding-right: 15px;
+}
+/*     meter     */
+meter {
+  display: block;
+  width: 80%;
+}
+meter::-webkit-meter-optimum-value {
+  background: none;
+  background-color: red;
 }
 /** {
   color: blue;
