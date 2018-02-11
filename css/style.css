@@ -21,7 +21,7 @@ h2 {
 }
           /* ASIDE */
 .flex-aside {
-  flex-basis: 200px;
+  flex-basis: 300px;
 }
 aside {
   background-color: #647087;
@@ -40,26 +40,45 @@ aside section h2:first-child {
 }
 #profile-pic img{
   border-radius: 50%;
-  width: 130px;
+  width: 180px;
 }
 /*    DL    */
-dl {
+dt:last-of-type,
+dd:last-of-type{
+  border-bottom: 1px solid white;
+}
+dl{
   display: flex;
   flex-wrap: wrap;
 }
-dt,
-dl {
-  line-height: 1.5em;
+dt{
+  font-weight: bolder;
+  flex-basis: 40%;
   border-top: 1px solid white;
-}
-dt:last-of-type,
-dd:last-of-type {
-  border-top: 1px solid white;
-}
-dt,
-dl {
-  flex-basis: 50%;
   margin: 0;
+}
+dd{
+  flex-basis: 40%;
+  border-top: 1px solid white;
+  margin: 0;
+}
+.social-item::before {
+  padding-right: 15px;
+}
+.fb::before {
+  content: "\f2bb";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+}
+.insta::before {
+  content: "\f16d";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+}
+.youtube::before {
+  content: "\f042";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
 }
 
           /* MAIN */
@@ -84,8 +103,20 @@ main section > h2 {
 .about-me {
   background-color: #EDC0Af;
 }
-.about-me h2 {
+.about-me h2,
+.experiencia h2,
+.education h2,
+.reference h2 {
   background-color: white;
+}
+.experiencia {
+    background-color: #99DAFF;
+}
+.education {
+    background-color: #FAF4A2;
+}
+.reference {
+    background-color: #A9918A;
 }
 article h3,
 article h4 {
@@ -96,14 +127,6 @@ article ul {
 }
 .reference article{
   width: 50%;
-}
-.fb::before {
-  content: "\f25b";
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-}
-.social-item::before {
-  padding-right: 15px;
 }
 /*     meter     */
 meter {
