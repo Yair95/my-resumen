@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Yair95/my-resumen#readme",
   "dependencies": {
     "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
   }
 }
